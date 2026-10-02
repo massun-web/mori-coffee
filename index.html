@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#293f34">
+  <meta name="description" content="パンが焼ける朝、珈琲の香る場所。MORI COFFEE & BAKERYは、丁寧に淹れたコーヒーと焼きたてのパンを楽しむ架空のカフェ＆ベーカリーです。">
+  <title>MORI COFFEE & BAKERY | パンが焼ける朝、珈琲の香る場所。</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="MORI COFFEE & BAKERY トップ"><span class="brand-name">MORI<span class="brand-dot">.</span></span><span class="brand-sub">COFFEE & BAKERY</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span class="menu-label">MENU</span><span class="menu-lines" aria-hidden="true"></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="メインナビゲーション">
+      <a href="#concept">CONCEPT</a><a href="#coffee">COFFEE</a><a href="#bakery">BAKERY</a><a href="#seasonal">SEASONAL</a><a class="nav-access" href="#access">VISIT US <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero.jpg" width="2000" height="1333" alt="窓辺の光のなか、一杯ずつ丁寧にドリップするコーヒー" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content"><p class="eyebrow">GOOD MORNINGS. SIMPLE PLEASURES.</p><h1 id="hero-title">パンが焼ける朝、<br>珈琲の香る場所。</h1><p class="hero-en">A little pause, a lovely day.</p></div>
+      <div class="hero-bottom"><span>SPECIALTY COFFEE & DAILY BREAD</span><a href="#concept">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-stamp" aria-hidden="true"><span>BAKED FRESH</span><b>every<br><i>morning.</i></b><span>BREWED WITH CARE</span></div>
+    </section>
+    <div class="news-bar"><span class="eyebrow">JOURNAL</span><span class="news-date">2026.09.01</span><a href="#seasonal">秋の朝に、香ばしいひと皿を。<span aria-hidden="true">↗</span></a></div>
+    <section class="concept section-wrap" id="concept" aria-labelledby="concept-title">
+      <div class="section-marker reveal"><span>01 / CONCEPT</span><span>THE WAY WE LIVE</span></div>
+      <div class="concept-grid"><div class="concept-heading reveal"><p class="display-heading">Good bread.<br>Good coffee.<br><em>Good day.</em></p><span class="tiny-rule"></span><p class="eyebrow">何気ない一日を、ちょっと豊かに。</p></div>
+      <div class="concept-copy reveal"><h2 id="concept-title">いつもの朝に、<br>小さなよろこびを。</h2><p>扉を開けると、ふわりと届くパンの香り。<br>豆を挽く音と、カップから立ちのぼる湯気。<br>そんな何気ない風景が、私たちの毎日のはじまりです。</p><p>産地の個性が息づく一杯と、<br>素材のおいしさをまっすぐに伝えるパン。<br>手をかけ、時間をかけ、今日も丁寧につくります。</p><p>忙しい朝も、のんびりしたい午後も。<br>MORIが、あなたの日常の小さな余白になりますように。</p><a class="text-link" href="#coffee">一杯と、ひとつへのこだわり <span aria-hidden="true">↓</span></a></div></div>
+    </section>
+    <section class="feature coffee" id="coffee" aria-labelledby="coffee-title">
+      <div class="feature-photo reveal"><img src="assets/coffee.jpg" width="1400" height="933" loading="lazy" alt="焙煎したコーヒー豆の豊かな表情"><span class="photo-caption">01 — FROM BEAN TO CUP</span></div>
+      <div class="feature-copy reveal"><p class="eyebrow">OUR CRAFT / 01</p><h2 class="display-heading" id="coffee-title">Coffee<span class="heading-dot">.</span></h2><h3>一杯に、豆のものがたり。</h3><p>果実のような香り、やさしい甘み、心地よい余韻。<br>豆が育った土地の個性を引き出す焙煎と、<br>一杯ずつ向き合うハンドドリップ。<br>その日の気分に合う一杯を、ご一緒に。</p><dl class="menu-list"><div><dt>MORI ブレンド <small>HOT / ICED</small></dt><dd>¥580</dd></div><div><dt>シングルオリジン <small>HOT</small></dt><dd>¥680〜</dd></div><div><dt>カフェラテ <small>HOT / ICED</small></dt><dd>¥650</dd></div></dl><p class="menu-note">すべて税込価格。テイクアウトもご用意しています。</p></div>
+    </section>
+    <section class="feature bakery" id="bakery" aria-labelledby="bakery-title">
+      <div class="feature-photo reveal"><img src="assets/bakery.jpg" width="1400" height="933" loading="lazy" alt="こんがりと焼き上がったクロワッサン"><span class="photo-caption">02 — FLOUR, BUTTER & A LITTLE PATIENCE</span></div>
+      <div class="feature-copy reveal"><p class="eyebrow">OUR CRAFT / 02</p><h2 class="display-heading" id="bakery-title">Bakery<span class="heading-dot">.</span></h2><h3>今日のパンは、今日の手で。</h3><p>国産小麦の豊かな風味と、発酵バターの香り。<br>じっくり寝かせた生地を、毎朝お店で焼き上げます。<br>外はさっくり、中はしっとり。<br>まずはひと口、そのままでどうぞ。</p><dl class="menu-list"><div><dt>発酵バターのクロワッサン</dt><dd>¥360</dd></div><div><dt>パン・オ・ショコラ</dt><dd>¥420</dd></div><div><dt>自家製酵母のカンパーニュ <small>HALF</small></dt><dd>¥580</dd></div></dl><p class="menu-note">すべて税込価格。パンは売り切れ次第終了となります。</p></div>
+    </section>
+    <section class="seasonal" id="seasonal" aria-labelledby="seasonal-title"><div class="section-wrap">
+      <div class="section-marker reveal"><span>02 / SEASONAL MENU</span><span>SEPTEMBER — NOVEMBER</span></div>
+      <div class="seasonal-grid"><div class="seasonal-copy reveal"><p class="eyebrow">A TASTE OF THE SEASON</p><h2 id="seasonal-title">秋を、<br>ひとくち。</h2><p class="seasonal-en">Slow mornings,<br><em>golden moments.</em></p><h3>秋のカンパーニュプレート</h3><p>香ばしくトーストしたカンパーニュに、<br>きのこのソテーと季節のスープを添えて。<br>深煎りのコーヒーと楽しむ、秋だけの朝時間。</p><p class="seasonal-price">¥1,280 <span>ドリンクセット ¥1,680 / 税込</span></p><span class="seasonal-tag">9–11月限定 · 9:00–14:00</span></div><figure class="seasonal-photo reveal"><img src="assets/seasonal.jpg" width="1400" height="933" loading="lazy" alt="季節のプレートに使う、粉をまとった素朴な焼きたてパン"><figcaption>OUR DAILY BREAD, YOUR SEASONAL MOMENT.<br><span>写真は使用するパンのイメージです。</span></figcaption></figure></div>
+    </div></section>
+    <section class="space" aria-labelledby="space-title"><div class="space-heading section-wrap reveal"><div><p class="eyebrow">03 / OUR SPACE</p><h2 class="display-heading" id="space-title">Make yourself <em>at home.</em></h2></div><p>ひとりの時間も、誰かとの時間も。<br>思い思いの過ごし方で。</p></div><figure class="space-photo reveal"><img src="assets/interior.jpg" width="1400" height="933" loading="lazy" alt="木の家具と緑が並ぶ、あたたかな雰囲気のカフェ店内"><figcaption>A PLACE TO SLOW DOWN.</figcaption></figure><div class="space-bottom section-wrap"><p>木のぬくもり。窓から差し込む光。<br>街の中で、深呼吸できる場所。</p><span>TAKE A SEAT. STAY A WHILE.</span></div></section>
+    <section class="access section-wrap" id="access" aria-labelledby="access-title"><div class="section-marker reveal"><span>04 / ACCESS</span><span>WE’LL SAVE YOU A SEAT.</span></div><div class="access-grid"><div class="access-heading reveal"><h2 class="display-heading" id="access-title">See you<br><em>at MORI.</em></h2><p>いつもの道に、少し寄り道。</p><div class="access-seal" aria-hidden="true">M<span>COFFEE & BAKERY</span></div></div><div class="access-info reveal"><h3>MORI COFFEE & BAKERY</h3><p class="access-sub">モリ コーヒー & ベーカリー</p><dl class="access-list"><div><dt>ADDRESS</dt><dd>東京都 緑町 森の小径 1-2-3<br><small>緑町駅から徒歩5分（架空の所在地）</small></dd></div><div><dt>OPEN</dt><dd>8:00 – 18:00 <small>（L.O. 17:30）</small><br><small>ベーカリー 8:00〜 / 季節のプレート 9:00〜</small></dd></div><div><dt>CLOSED</dt><dd>水曜日</dd></div><div><dt>INFORMATION</dt><dd>全席禁煙 / テイクアウト可<br><small>お席のご予約は承っておりません。</small></dd></div></dl><p class="demo-note">このサイトは架空の店舗を題材にしたポートフォリオ作品です。<br>実際の店舗・所在地・営業時間ではありません。</p></div></div></section>
+    <section class="instagram" aria-labelledby="instagram-title"><div class="instagram-inner"><div><p class="eyebrow">LITTLE MOMENTS FROM MORI</p><h2 class="display-heading" id="instagram-title">Our daily <em>journal.</em></h2><p>焼きたての便りと、季節の風景を。</p></div><button class="instagram-link" type="button" data-instagram aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r=".6" fill="currentColor"/></svg><span>FOLLOW ON INSTAGRAM</span><span aria-hidden="true">↗</span></button></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><a class="brand footer-brand" href="#top" aria-label="MORI COFFEE & BAKERY トップ"><span class="brand-name">MORI.</span><span class="brand-sub">COFFEE & BAKERY</span></a><p>パンが焼ける朝、珈琲の香る場所。</p><a class="back-top" href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a></div><div class="footer-bottom"><span>© 2026 MORI COFFEE & BAKERY</span><span>FICTIONAL BRAND / PORTFOLIO PROJECT</span><a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">PHOTOGRAPHY: UNSPLASH ↗</a></div></footer>
+  <dialog class="social-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="閉じる">×</button><p class="eyebrow">MORI COFFEE & BAKERY</p><h2 id="dialog-title">日々の便りは、こちらから。</h2><p>こちらは架空のブランドのため、公式Instagramアカウントはありません。</p><a class="text-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagramを開く <span aria-hidden="true">↗</span></a></dialog>
+</body>
+</html>
