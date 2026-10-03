@@ -406,6 +406,10 @@ button {
   flex:0 0 4em;
   text-align:left
 }
+.coffee .menu-list>div:first-child dd,
+.coffee .menu-list>div:last-child dd {
+  transform:translateX(-10px)
+}
 .menu-note {
   font-size:9px;
   color:var(--muted);
