@@ -402,6 +402,10 @@ button {
   font-variant-numeric:tabular-nums;
   white-space:nowrap
 }
+.coffee .menu-list dd {
+  flex:0 0 4em;
+  text-align:left
+}
 .menu-note {
   font-size:9px;
   color:var(--muted);
